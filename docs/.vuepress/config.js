@@ -36,8 +36,20 @@ module.exports = {
         link: '/basics/',
       },
       {
+        text: 'Dockerfile',
+        link: '/dockerfile/',
+      },
+      {
+        text: 'Docker Compose',
+        link: '/docker-compose/',
+      },
+      {
+        text: 'Volumenes',
+        link: '/volumes/',
+      },
+      {
         text: 'Github',
-        link: 'https://github.com/ADC-Mid/docker-fundamentals'
+        link: 'https://github.com/Ascodecodigo/docker-fundamentals'
       },
       {
         text: 'ADC',
@@ -48,6 +60,33 @@ module.exports = {
       '/basics/': [
         {
           title: 'Docker basics',
+          collapsable: false,
+          children: [
+            ''
+          ]
+        }
+      ],
+      '/dockerfile/': [
+        {
+          title: 'Dockerfile',
+          collapsable: false,
+          children: [
+            ''
+          ]
+        }
+      ],
+      '/docker-compose/': [
+        {
+          title: 'Docker compose',
+          collapsable: false,
+          children: [
+            ''
+          ]
+        }
+      ],
+      '/volumes/': [
+        {
+          title: 'Volumenes',
           collapsable: false,
           children: [
             ''
