@@ -37,7 +37,7 @@ module.exports = {
       },
       {
         text: 'Github',
-        link: 'https://github.com/RaulNovelo/curso-vuejs-adc'
+        link: 'https://github.com/ADC-Mid/docker-fundamentals'
       },
       {
         text: 'ADC',
