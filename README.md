@@ -1,36 +1,12 @@
+# Docker
 
-# Vue.js
-![](http://tutorialesenpdf.com/wp-content/uploads/2018/05/vuejs-tutorial-pdf.jpg)
+![Docker](https://d33wubrfki0l68.cloudfront.net/33282cd91fc50462bc515a615cccafa37fe07a63/3e476/images/logo.png)
 
-*Vue* (pronunciado / vjuː /, como la vista ) es un `marco progresivo` para crear interfaces de usuario. A diferencia de otros marcos monolíticos, Vue está diseñado desde cero para que pueda ser adoptado gradualmente. La biblioteca central se enfoca solo en la capa de vista y es fácil de captar e integrar con otras bibliotecas o proyectos existentes. Por otro lado, Vue también es perfectamente capaz de impulsar aplicaciones sofisticadas de una sola página cuando se usa en combinación con herramientas modernas y bibliotecas de soporte.
+**Docker** es una plataforma abierta para que desarrolladores y administradores de sistemas desarrollen, envíen y ejecuten aplicaciones distribuidas, ya sea en computadoras portátiles, maquinas virtuales de centros de datos o en la nube.
 
-Fuente: [https://vuejs.org/v2/guide/](https://vuejs.org/v2/guide/)
+**Docker** empaqueta software en **contenedores** que incluyen en ellos todo lo necesario para que dicho software se ejecute, incluidas librerías. Con Docker se puede implementar y ajustar la escala de aplicaciones de una forma rápida en cualquier entorno con la garantía de que el código se ejecutará. A primera vista se piensa en **Docker** como una especie de máquina virtual *liviana*, pero la verdad no lo es. En **Docker** no existe un hypervisor que virtualice hardware sobre el cual corra un sistema operativo completo. En Docker lo que se hace es usar las funcionalidades del Kernel para encapsular un sistema, de esta forma el proyecto que corre dentro de el no tendrá conocimiento que está en un contenedor. Los contenedores se encuentran aislados entre sí y se comportaran como máquinas independientes. Iniciar un contenedor no tiene un gran impacto a diferencia de iniciar una máquina virtual ya que no tiene que iniciar un sistema operativo completo(desde cero). Gracias al uso de contenedores la demanda de recursos baja.
 
-# Acerca de este repo
-
-El presente repositorio es una recopilación de pequeños proyectos realizados con `Vue` para poder introducir desde los conceptos más elementales hasta los más avanzados sobre este magnífico framework.
-
-# Recursos de Vue
-
-- [Documentación Oficial](https://vuejs.org/)
-- [Vue CLI](https://cli.vuejs.org/)
-- [VueRouter](https://router.vuejs.org/)
-- [Vuex](https://vuex.vuejs.org/)
-- [Nuxt.js](https://nuxtjs.org/)
-- [Vue Composition API](https://vue-composition-api-rfc.netlify.com/)
-
-# Recursos para el curso
-- [VSCode](https://code.visualstudio.com/download)
-- [HTML5](https://developer.mozilla.org/es/docs/HTML/HTML5)
-- [CSS3](https://www.ecured.cu/CSS3)
-- [GRID SYSTEM](https://www.w3schools.com/css/css_grid.asp)
-- [ECMAScript](https://es.wikipedia.org/wiki/ECMAScript)
-- [JS version support](https://www.w3schools.com/js/js_versions.asp)
-- [Fetch API](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
-
-# Recursos adicionales
-* [Element UI](https://element.eleme.io/#/es)
-* [Vuetify](https://vuetifyjs.com/en/)
-* [BootstrapVue](https://bootstrap-vue.js.org/)
-* [Buefy](https://buefy.github.io/#/)
-* [Gopherjs + Vue](https://github.com/oskca/gopherjs-vue)
+## Enlaces
+* [Documentación](https://docs.docker.com/)
+* [Docker: The Fun and Easy Way](https://medium.com/myplanet-musings/docker-the-fun-and-easy-way-d84f5682c1f)
+* [Dockerizing a Node.js web app](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
